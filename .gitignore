@@ -1,10 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Project-specific
 data/
 models/
 runs/
-results/*.pt
 *.pt
 *.onnx
 *.tflite
-__pycache__/
-.venv/
 .env
